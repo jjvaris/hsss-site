@@ -3,5 +3,5 @@ module.exports = {
     title: 'HSSS',
   },
   plugins: ['gatsby-plugin-react-helmet'],
-  pathPrefix: '/hsss',
+  pathPrefix: '/hsss-site',
 }
