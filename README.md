@@ -1,6 +1,6 @@
 # Helsinki Surf Skate Society Website
 
-[HSSS-site](http://jjvaris.github.io/hsss) build with gatsby & react.
+[HSSS-site](http://jjvaris.github.io/hsss-site) build with gatsby & react.
 
 ## Install
 
@@ -28,4 +28,4 @@ gatsby build && gatsby serve
 npm run deploy
 ```
 
-[http://jjvaris.github.io/hsss]()
+[http://jjvaris.github.io/hsss-site](http://jjvaris.github.io/hsss-site)
