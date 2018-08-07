@@ -1,4 +1,4 @@
-# Helsinki Surf Skate Society Website
+# Helsinki Surfskate Society Website
 
 [HSSS-site](http://jjvaris.github.io/hsss-site) build with gatsby & react.
 
