@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import Header from './header'
 import { Instagram, Github, Facebook, Linkedin } from './socials'
+import Logo from './logo'
 
 class Nav extends Component {
   state = {
@@ -8,7 +10,6 @@ class Nav extends Component {
   }
 
   handleNavClick = () => {
-    console.log('close')
     this.setState({ active: !this.state.active })
   }
 
@@ -23,34 +24,33 @@ class Nav extends Component {
           <span />
         </span>
         <div className={`sidenav ${active}`}>
-          <div className="logo">
-            <h1>HSSS</h1>
-            <div>Helsinki surf skate society</div>
-          </div>
-          <nav>
-            <ul>
-              <Link to="/" onClick={this.handleNavClick}>
-                <li>Home</li>
-              </Link>
-              <a href="#">
-                <li>Gallery</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>Contact</li>
-              </a>
-            </ul>
-          </nav>
-          <div className="socials">
-            <Facebook />
-            <Linkedin />
-            <Github />
-            <Instagram />
-          </div>
-          <div className="credits">
-            <p>hsss @ 2018. Design by Jouni.</p>
+          <Logo />
+          <div className="links">
+            <nav>
+              <ul>
+                <Link to="/" onClick={this.handleNavClick}>
+                  <li>Home</li>
+                </Link>
+                <a href="#">
+                  <li>Gallery</li>
+                </a>
+                <a href="#">
+                  <li>About</li>
+                </a>
+                <a href="#">
+                  <li>Contact</li>
+                </a>
+              </ul>
+            </nav>
+            <div className="socials">
+              <Facebook />
+              <Linkedin />
+              <Github />
+              <Instagram />
+            </div>
+            <div className="credits">
+              <p>hsss @ 2018. Design by Jouni.</p>
+            </div>
           </div>
         </div>
         <div className={`hide-menu ${active}`} onClick={this.handleNavClick} />

@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Logo from './logo'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
-    <h1>HSSS</h1>
-    <div>Helsinki surf skate society</div>
+    <Logo />
   </header>
 )
 
