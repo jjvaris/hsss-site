@@ -1,5 +1,7 @@
 # Helsinki Surfskate Society Website
 
+This site is currently under development.
+
 [HSSS-site](http://jjvaris.github.io/hsss-site) build with gatsby & react.
 
 ## Install
